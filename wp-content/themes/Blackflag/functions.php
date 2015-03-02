@@ -459,6 +459,17 @@ add_action( 'after_switch_theme', 'blackflagtheme_woocommerce_image_dimensions',
 	define ( 'BP_AVATAR_THUMB_HEIGHT', '75' );
 	define ( 'BP_AVATAR_FULL_WIDTH', '250' );
 	define ( 'BP_AVATAR_FULL_HEIGHT', '250' );
+
+
+// remove the admin bar
+if ( !current_user_can('administrator') ) { 
+	show_admin_bar(false);
+	echo '<style type="text/css"> #ozhmenu_wrap{display:none;}
+	#screen-meta-links .screen-meta-toggle {
+	display: none;
+	}</style>' ;
+}
 	
 
 ?>
+
