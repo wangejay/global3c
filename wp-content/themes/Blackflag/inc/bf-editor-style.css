@@ -1,0 +1,33 @@
+blockquote { padding: 1px 15px 1px 15px;float: left;width: 90%;font-size:22px; line-height:26px;}
+q{padding: 1px 15px 1px 15px;float: left;width: 90%;font-size:22px;line-height:26px;}
+q.left{width:40%;}
+q.right{width:40%;text-align:right;float:right;}
+p { display: block; margin-bottom: 15px; }
+blockquote p { margin-top: 15px; }
+h1 {  font-size:30px; line-height:34px; font-weight:700; margin: 10px 0; width: 100%; }
+h2 {  font-size:28px; line-height:32px; font-weight:700; margin: 10px 0; width: 100%; }
+h3 {  font-size:24px; line-height:28px; font-weight:700; margin: 10px 0; width: 100%; }
+h4 {  font-size:20px; line-height:24px; font-weight:700; margin: 10px 0; width: 100%; }
+h5 {  font-size:16px; line-height:20px; font-weight:700;margin: 10px 0; width: 100%; }
+h6 {  font-size:12px; line-height:16px; font-weight:700; margin: 10px 0; width: 100%; }
+ul { list-style: disc outside; margin: 10px 0; }
+ol { list-style: decimal outside; margin: 10px 0; }
+ul li, ol li { margin-left: 50px; padding: 5px 0px; }
+
+.alignright { max-width: 100%; float: right; }
+.alignleft { max-width: 100%; float: left; }
+.aligncenter { max-width: 100%; display: block; margin: 0 auto; }
+.alignnone { max-width: 100%; }
+code, pre { padding: 2px 4px; background-color: #f7f7f9; border: 1px solid #e1e1e8; }
+pre { word-break: break-all; word-wrap: break-word; white-space: pre-wrap; }
+sub, sup { position: relative; font-size: 75%; line-height: 0; vertical-align: baseline; }
+sub { bottom: -2px; }
+sup { top: -5px; }
+.wp-caption, .gallery-caption { margin-bottom: 10px; text-align: center; }
+.wp-caption-text { margin-bottom: 2px; }
+img.alignright, .wp-caption.alignright { float: right; margin: 5px 0 20px 20px; }
+img.alignleft, .wp-caption.alignleft { float: left; margin: 5px 20px 20px 0; }
+table {margin-bottom: 30px;}
+td {border: 1px solid #999;	padding: 10px 15px;	background: #ddd;}
+tr:nth-child(odd) td {background: #eee;}
+th, tfoot td {padding: 10px 15px;background: #bbb!important;border: 1px solid #999;font-weight: normal;text-transform: uppercase;white-space: nowrap;text-align: left;}

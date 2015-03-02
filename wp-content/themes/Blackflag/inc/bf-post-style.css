@@ -1,0 +1,11 @@
+.post-type-product #bf_subtitle{display:none;}
+.bf-image-preview-wrapper{width:20%;float:left;margin-right:2%;}
+.bf-good-wrapper, .bf-bad-wrapper{width:35%;float:left;margin-right:2%;}
+#bf-review-metabox{text-align:left;}
+#bf-review-metabox th, #post-review-title, #post-review-title, #bf-image-preview-title, #bf-image-preview-title{font-size:14px;font-weight:700;padding: 10px 0;}
+.bf-image-field{width:25%;float:left;}
+.bf-image-field th{width:100%;float:left;}
+.bf-image-field td input{width:100%;float:left;}
+.gallery-image-preview{width:75px;height:75px;}
+#add-row-gallery, #add-row-good, #add-row-bad, #add-row{background: #007B05;border-color: #FFF;color: #FFF;font-weight: 700;}
+#bf-review-metabox .remove-row, #bf-gallery-metabox .remove-row{background: #D02B2B;border-color: #FFF;color: #FFF;font-weight: 700;}
