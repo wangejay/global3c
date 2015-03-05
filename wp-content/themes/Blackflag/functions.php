@@ -470,6 +470,19 @@ if ( !current_user_can('administrator') ) {
 	}</style>' ;
 }
 	
-
+// only author can read his artical 
+function parse_query_useronly( $wp_query ) {
+    if ( strpos( $_SERVER[ 'REQUEST_URI' ], '/wp-admin/edit.php' ) !== false ) {
+        if ( !current_user_can( 'add_user' ) ) {
+            global $current_user;
+            $wp_query->set( 'author', $current_user->id );
+        }
+    }
+}
+add_filter('parse_query', 'parse_query_useronly' );
+ 
+	
+	
+	
 ?>
 
