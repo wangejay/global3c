@@ -116,7 +116,7 @@
 			</a>
 		</div>
 		<!--site-logo-->
-		<div id="header-ad">
+		<div id=>
 			<?php echo get_option('bf_header_ad'); ?>
 		</div>
 		<!--header-ad-->
