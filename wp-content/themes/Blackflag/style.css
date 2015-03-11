@@ -53,7 +53,7 @@ body { overflow-y: scroll; color: #444; margin: 0 auto; padding: 0; position: re
 .admin-bar .home-widget.fixed-widget.navigation-has-menu { top: 69px; }
 .admin-bar .home-widget.fixed-widget { top: 32px; }
 #secondary .home-widget:last-child .widget-title{   transform: translateZ(0);    -moz-transform: translatez(0);    -ms-transform: translatez(0);    -o-transform: translatez(0);    -webkit-transform: translateZ(0);    -webkit-font-smoothing: antialiased; }
-.widget-title { padding: 20px 30px; float: left; font-family: Verdana, Arial, Noto Sans CJK TC, Microsoft YaHei, Microsoft JhengHei !important; font-size: 18px; min-height: 60px; font-weight: 400; text-transform: uppercase; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-sizing: border-box; width: 100%; border-bottom: 1px solid #ebebeb; }
+.widget-title { padding: 20px 30px; float: left; font-family: Verdana, Arial, Noto Sans CJK TC, Microsoft YaHei, Microsoft JhengHei !important; font-size: 18px; min-height: 60px; font-weight: 600; text-transform: uppercase; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-sizing: border-box; width: 100%; border-bottom: 1px solid #ebebeb; }
 #primary .widget-title{border-top:1px solid #ebebeb; border-left:1px solid #ebebeb;border-bottom:0;}
 .widget-title .last-word { font-weight: 700; }
 .widget-title.style_title2 { border-top: 3px solid #000; }
