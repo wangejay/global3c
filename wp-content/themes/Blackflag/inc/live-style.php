@@ -104,7 +104,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='transparent '
 
 #wide-containter .flex-control-paging li a:hover, #navigation{background:$menu_background;}
 .page-numbers.current, .sticky h2 a, #author-desc h2 a, #author-desc h2, .previous-article a, .next-article a, .slide-info .slide-author a, #cancel-comment-reply-link, .medium-featured-posts-title h2 a:hover, .three-posts-title a:hover, .required, .tagcloud a:hover, .post-tags a:hover, .slider-text-box .category-icon a:hover, #main-nav .menu-text a:hover, .carousel-text a:hover, #main-nav .menu-links.inside-menu li:hover .menu-text a:hover, .bypostauthor a, .post-author a, .three-posts-read-more a:hover, .post-author a:visited, a:hover, .feat-cat-categories a, .featured-posts-title a:hover, .featured-posts-text .category-icon a, .carousel-category a, .category-sidebar-news a, .ticker-cat a, #main-nav ul .category-sidebar-news a, .good-title, .bad-title {color:$main_color;}
-#main-nav ul li a, #mob-menu{font-family: Verdana, Arial, Noto Sans CJK TC, Microsoft YaHei, Microsoft JhengHei !important;}
+#main-nav ul li a, #mob-menu{font-size:medium; font-family: Verdana, Arial, Noto Sans CJK TC, Microsoft YaHei, Microsoft JhengHei !important;}
 #post-page-title h1{text-transform:$uppercase_title;}
 blockquote, .content q.left, .content q{border-left: 2px solid $main_color;color:$main_color;}
 .content q.right{border-left:0;border-right: 2px solid $main_color;color:$main_color;}
