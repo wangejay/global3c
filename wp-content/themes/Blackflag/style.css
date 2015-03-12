@@ -991,7 +991,7 @@ th, tfoot td { padding: 10px 15px; background: #bbb!important; border: 1px solid
 /*meta widget*/
 .widget_meta { width: 336px; font-size: 14px; font-weight: 400; }
 .widget_meta ul { -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-sizing: border-box; width: 100%; float: left; padding: 0 30px; }
-.widget_meta ul li { padding: 15px 0; border-bottom: 1px solid #ebebeb; font-style: italic; }
+.widget_meta ul li { padding: 15px 0; border-bottom: 1px solid #ebebeb; }
 .widget_meta ul li:last-child{border-bottom:0;}
 .widget_meta ul li a { }
 
