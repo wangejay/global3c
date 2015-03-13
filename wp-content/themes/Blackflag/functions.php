@@ -147,7 +147,7 @@ if ( function_exists('register_sidebar') ) {
 		'before_title' => '<div class="widget-title">',
 		'after_title' => '</div>',
 	));	
-    // JW: Add the two homepage template 
+    // JW: Add the 4 homepage template 
 	register_sidebar(array(
 		'name' => 'homepagefun',
 		'id' => 'homepagetfun',
@@ -160,6 +160,24 @@ if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(
 		'name' => 'homepagelife',
 		'id' => 'homepagelife',
+		'before_widget' => '<div class="home-widget"><div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div></div>',
+		'before_title' => '<div class="widget-title">',
+		'after_title' => '</div>',
+	));	
+	
+	register_sidebar(array(
+		'name' => 'cattech',
+		'id' => 'cattech',
+		'before_widget' => '<div class="home-widget"><div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div></div>',
+		'before_title' => '<div class="widget-title">',
+		'after_title' => '</div>',
+	));	
+	
+	register_sidebar(array(
+		'name' => 'catbrand',
+		'id' => 'catbrand',
 		'before_widget' => '<div class="home-widget"><div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div></div>',
 		'before_title' => '<div class="widget-title">',

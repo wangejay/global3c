@@ -9,7 +9,16 @@
 
 <div id="main" <?php if ( $category_post_size == 'three-thirds' ){echo 'class="no-sidebar"';}if ( !is_active_sidebar('catsidebar')){echo 'class="no-sidebar"';}?>>
 	<div id="fullwidth" class="widget-area">
-			<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Alternative Homepage')): endif; ?>
+
+			<?php
+			$classes = get_body_class();
+			if (in_array('category-tech',$classes)) {
+				if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('cattech')): endif; 
+			} else {
+				if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('catbrand')): endif; 
+			}
+			?>
+
 		<!--home-widget three-thirds-->
 	</div>
 	<!--fullwidth-->
